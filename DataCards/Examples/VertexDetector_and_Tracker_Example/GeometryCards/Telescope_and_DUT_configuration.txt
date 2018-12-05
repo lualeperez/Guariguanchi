@@ -1,8 +1,0 @@
-//Telescope and DUT configuration
-
-BeginBeamTestConfiguration
-  TelescopeLayersList    ITS-2  ITS-3  ITS-4  ITS-5  ITS-6  ITS-7
-  DUTLayersList          ITS-1
-EndBeamTestConfiguration
-
-

@@ -1,64 +1,0 @@
-10
-
-dir
-2031
-https://sbgsvn.in2p3.fr/svn/CMOS/Guariguanchi/trunk/DataCards/Examples
-https://sbgsvn.in2p3.fr/svn/CMOS
-
-
-
-2018-02-01T08:39:45.830832Z
-2008
-aperez
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8d79ee68-7c76-4fec-8884-32f05997c25b
-
-BeamTest_Example
-dir
-
-Simplified_ILD_Tracking
-dir
-
-VertexDetector_and_Tracker_Example
-dir
-
-Belle2_Tracker
-dir
-
-CMS_Tracker_Upgrade
-dir
-
-Mosaic_ILD_Tracking
-dir
-
-LHCb_Tracker_Upgrade
-dir
-
-SiD_Tracker
-dir
-
-ATLAS_Itk
-dir
-
-SITRINEO
-dir
-
-Spectrometer
-dir
-
-FOOT_Tracking_System
-dir
-
