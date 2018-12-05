@@ -1,0 +1,89 @@
+//Plane geometry element
+BeginGeoPlane
+  Name             1st telescope plane   //Name      (Mandatory)
+  Position         0.0  0.0  0.5  cm     //Position  (Mandatory)
+  RotAngles        0.0  0.0  0.0  deg    //Rotation angles alphaX alphaY alphaZ (Optional). (0,0,0) by default
+                                         //Rotation convention: Rz(alphaZ)Ry(alphaY)Rx(alphaX)
+  Material         silicon               //material  (Mandatory)
+  Thickness         50.0   um            //plane thickness (Mandatory)
+  widthU             2.0   cm            //plane width     (Mandatory)
+  widthV             2.0   cm            //plane length    (Mandatory)
+  LayerName        Telescope-1           //Name of the system to which this element belongs (Optional). Default value is ""
+  IsSensitive      true                  //flag to determine if plane is sensitive (Mandatory)
+  //All the variables below are mandatory is IsSensitive = true
+  ResolutionU        3.5   um            //single-point resolution in width  direction
+  ResolutionV        3.5   um            //single-point resolution in length direction
+  Efficiency         0.98                //single-point detection efficiency
+  ROtime           200.0   us            //readout time. Only needed 
+  InsensFracUneg   0.0                  //fraction of insensitve material in the low-edge  border along width
+  InsensFracUpos   0.0                  //fraction of insensitve material in the high-edge border along width
+  InsensFracVneg   0.0                  //fraction of insensitve material in the low-edge  border along length
+  InsensFracVpos   0.0                  //fraction of insensitve material in the high-edge border along length
+  BkgRate          0.0  Hz/cm2
+EndGeoPlane
+
+BeginGeoPlane
+  Name             2nd telescope plane
+  Position         0.0  0.0  0.7  cm
+  RotAngles        0.0  0.0  0.0  deg
+  Material         silicon
+  Thickness         50.0   um
+  widthU             2.0   cm
+  widthV             2.0   cm
+  LayerName        Telescope-2
+  IsSensitive      true
+  ResolutionU        3.5   um
+  ResolutionV        3.5   um
+  Efficiency         0.98
+  ROtime           200.0   us
+  InsensFracUneg   0.0
+  InsensFracUpos   0.0
+  InsensFracVneg   0.0
+  InsensFracVpos   0.0
+  BkgRate          0.0  Hz/cm2
+EndGeoPlane
+
+
+BeginGeoPlane
+  Name             3rd telescope plane
+  Position         0.0  0.0  1.6  cm
+  RotAngles        0.0  0.0  0.0  deg
+  Material         silicon
+  Thickness         50.0   um
+  widthU             2.0   cm
+  widthV             2.0   cm
+  LayerName        Telescope-3
+  IsSensitive      true
+  ResolutionU        3.5   um
+  ResolutionV        3.5   um
+  Efficiency         0.98
+  ROtime           200.0   us
+  InsensFracUneg   0.0
+  InsensFracUpos   0.0
+  InsensFracVneg   0.0
+  InsensFracVpos   0.0
+  BkgRate          0.0  Hz/cm2
+EndGeoPlane
+
+BeginGeoPlane
+  Name             4th telescope plane
+  Position         0.0  0.0  1.8  cm
+  RotAngles        0.0  0.0  0.0  deg
+  Material         silicon
+  Thickness         50.0   um
+  widthU             2.0   cm
+  widthV             2.0   cm
+  LayerName        Telescope-4
+  IsSensitive      true
+  ResolutionU        3.5   um
+  ResolutionV        3.5   um
+  Efficiency         0.98
+  ROtime           200.0   us
+  InsensFracUneg   0.0
+  InsensFracUpos   0.0
+  InsensFracVneg   0.0
+  InsensFracVpos   0.0
+  BkgRate          0.0  Hz/cm2
+EndGeoPlane
+
+

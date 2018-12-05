@@ -1,0 +1,55 @@
+//////////////////////////////////////////////
+// Description: ILC Tracking System example //
+//   - Geometry Visualization               //
+//////////////////////////////////////////////
+
+ParticleType:   mu+
+ParticleOrigin: 0.0  0.0  0.0  cm
+ReferencePoint: 0.0  0.0  0.0  cm
+
+BeginCosThetaScan
+  Nbins          50
+  costhetaMin   -0.990268
+  costhetaMax   +0.990268
+EndCosThetaScan
+
+BeginAzimuthalAngleScan
+  Nbins     20
+  phiMin     0.0  deg
+  phiMax    20.0  deg
+EndAzimuthalAngleScan
+
+//Parameters for material budget analysis
+BeginMatBudgetAnalysisParams
+  mom_min    1.0  GeV/c
+  mom_max   10.0  GeV/c
+EndMatBudgetAnalysisParams
+
+//Voxels definition
+// BeginVoxeling
+//   BeginVoxel
+//     zRange          0.0     10.0  m
+//     phiRange       -180.0   90.0  deg
+//   EndVoxel
+// EndVoxeling
+
+//Geometry lists
+BeginGeometries
+  DataCards/Examples/Mosaic_ILD_Tracking/GeometryCards/ILC_TrackinSystem_Geometry.txt
+EndGeometries
+
+OutputFile:  Plots/Examples/Mosaic_ILD_Tracking/ILC_TrackingSystem_MatBudgetAnalysis
+
+//List of analysis flags
+//PrintGeometry:             true
+//PrintGeometryWeight:       true
+//PlotGeometry:              true
+//PlotWorldVolume:           true
+//DoRZGeoRepresentation:     true
+//PlotSomeTracks:            true
+//UseAllMomVals:             true
+//DoTrkResolAnalysis:        true
+//DoTelescopeAnalysis:       true
+DoMaterialBugdetAnalysis:  true
+SavePlots:                 true
+

@@ -1,0 +1,16 @@
+//
+GeometryName:  SITRINEO High Bfield Setup
+
+//World Volume
+InputFile:  DataCards/Examples/SITRINEO/GeometryCards/WorldVolume.txt
+
+//Bfield
+InputFile:  DataCards/Examples/SITRINEO/GeometryCards/HighBfield.txt
+
+//Telescope planes
+InputFile:  DataCards/Examples/SITRINEO/GeometryCards/SITRINEO_planes.txt
+
+
+
+
+

@@ -1,1 +1,1 @@
-Here I explain what is inside this code.
+Read the documentation inside the doc folder.

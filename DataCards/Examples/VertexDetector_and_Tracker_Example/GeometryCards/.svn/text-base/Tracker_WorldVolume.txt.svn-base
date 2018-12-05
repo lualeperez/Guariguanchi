@@ -1,0 +1,11 @@
+////////////////////////////////
+//////// World Volume //////////
+////////////////////////////////
+
+BeginCylinderWorldVolume
+  Position      0.0  0.0  0.0  cm
+  Radius         50.0  cm
+  Length        170.0  cm
+EndCylinderWorldVolume
+
+

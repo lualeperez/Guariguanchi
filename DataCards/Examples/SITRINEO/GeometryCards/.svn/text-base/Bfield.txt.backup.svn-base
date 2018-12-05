@@ -1,0 +1,26 @@
+///////////////////////////////
+/////// Geometry Bfield ///////
+///////////////////////////////
+
+BeginMultipleStepsBfield
+  BeginInsideBfield
+    Magnitude      1.0  T
+    Direction      1  0  0
+  EndInsideBfield
+  
+  cout << "BeginBoxVolume" << endl;
+	  cout << "  Position        x       y       z    units" << endl;
+	  cout << "  RotAngles    alphaX  alphaY  alphaZ  units" << endl;
+	  cout << "  widthX         val  units // val > 0" << endl;
+	  cout << "  widthY         val  units // val > 0" << endl;
+	  cout << "  widthZ         val  units // val > 0" << endl;
+	  cout << "EndBoxVolume"   << endl;
+  
+  BeginCylinderVolume
+    Position     0.0  0.0   7.5  cm
+    RotAngles    0.0  0.0   0.0  deg
+    Length       3.0 cm
+    Radius       8.0 cm
+  EndCylinderVolume  
+EndMultipleStepsBfield
+

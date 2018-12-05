@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/CMOS/!svn/ver/1965/Guariguanchi/trunk/DataCards/Examples/FOOT_Tracking_System/GeometryCards
+END
+Bfield.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/CMOS/!svn/ver/1964/Guariguanchi/trunk/DataCards/Examples/FOOT_Tracking_System/GeometryCards/Bfield.txt
+END
+Inner_Pixel_Tracker.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/CMOS/!svn/ver/1964/Guariguanchi/trunk/DataCards/Examples/FOOT_Tracking_System/GeometryCards/Inner_Pixel_Tracker.txt
+END
+Vertex_Pixel_Tracker.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/CMOS/!svn/ver/1964/Guariguanchi/trunk/DataCards/Examples/FOOT_Tracking_System/GeometryCards/Vertex_Pixel_Tracker.txt
+END
+Strip_Tracker.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/CMOS/!svn/ver/1964/Guariguanchi/trunk/DataCards/Examples/FOOT_Tracking_System/GeometryCards/Strip_Tracker.txt
+END
+FOOT_Tracker_Geometry.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/CMOS/!svn/ver/1964/Guariguanchi/trunk/DataCards/Examples/FOOT_Tracking_System/GeometryCards/FOOT_Tracker_Geometry.txt
+END
+WorldVolume.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/CMOS/!svn/ver/1964/Guariguanchi/trunk/DataCards/Examples/FOOT_Tracking_System/GeometryCards/WorldVolume.txt
+END

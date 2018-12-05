@@ -1,0 +1,37 @@
+//Track finding algorithms configuration
+
+BeginFPCCDTrackFinderAlgo
+  Name              TrackFinder in Central Region
+  
+  //Region where this algorithm is going to be applied
+  BeginTrackFinderRegion
+    momentumRangeTheta   25.0  110.0  deg
+  EndTrackFinderRegion
+  
+  //Parameters
+  PtMin             100.0  MeV/c
+  NhitsMin          5
+  PurityMin         0.7
+  Chi2OndfSeed      6.0
+  Chi2OndfAdd       6.0
+  InwardTracking    true
+  NfakesMaxSeeding  1
+  NmcSeedEffic      10000
+  CenterPosition    0.0  0.0  0.0 cm
+  
+  //Systems list
+  BeginSystems
+    System   Beam-Pipe
+    System   Tracker-Inner Barrel
+    System   Tracker-Outer Barrel
+  EndSystems
+  
+  //List of seeding configurations
+  BeginSeedConfigs
+    SeedConfig    ITS-5  ITS-6  ITS-7
+    SeedConfig    ITS-4  ITS-6  ITS-7
+    SeedConfig    ITS-4  ITS-5  ITS-7
+    SeedConfig    ITS-4  ITS-5  ITS-6
+  EndSeedConfigs
+  
+EndFPCCDTrackFinderAlgo

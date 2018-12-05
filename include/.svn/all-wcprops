@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/CMOS/!svn/ver/2022/Guariguanchi/trunk/include
+END
+GSurfaceCylinder.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/include/GSurfaceCylinder.h
+END
+GEfficiencyModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CMOS/!svn/ver/1927/Guariguanchi/trunk/include/GEfficiencyModel.h
+END
+GTrajectory.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/include/GTrajectory.h
+END
+GGeoCylinderSection.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/include/GGeoCylinderSection.h
+END
+GResolutionModelTPC.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CMOS/!svn/ver/1819/Guariguanchi/trunk/include/GResolutionModelTPC.h
+END
+GGeometry.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/CMOS/!svn/ver/1990/Guariguanchi/trunk/include/GGeometry.h
+END
+GTracker.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/CMOS/!svn/ver/2006/Guariguanchi/trunk/include/GTracker.h
+END
+GTrajectoryStraight.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/include/GTrajectoryStraight.h
+END
+GBFieldConstant.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/CMOS/!svn/ver/1819/Guariguanchi/trunk/include/GBFieldConstant.h
+END
+GTrackFinderAlgo.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CMOS/!svn/ver/1977/Guariguanchi/trunk/include/GTrackFinderAlgo.h
+END
+GGeoObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/include/GGeoObject.h
+END
+GGeoConeSection.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/include/GGeoConeSection.h
+END
+GSurfaceCylinderSection.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/include/GSurfaceCylinderSection.h
+END
+GGeoDiskSection.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/include/GGeoDiskSection.h
+END
+GGeoCone.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/include/GGeoCone.h
+END
+GUtiliratyFunctions.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/include/GUtiliratyFunctions.h
+END
+GSurfaceObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/include/GSurfaceObject.h
+END
+GBFieldMultipleSteps.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/CMOS/!svn/ver/1898/Guariguanchi/trunk/include/GBFieldMultipleSteps.h
+END
+GTrajectoryMultipleSteps.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/include/GTrajectoryMultipleSteps.h
+END
+GSurfaceConeSection.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/include/GSurfaceConeSection.h
+END
+GResolutionModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CMOS/!svn/ver/1919/Guariguanchi/trunk/include/GResolutionModel.h
+END
+GGeoDisk.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/include/GGeoDisk.h
+END
+GBField.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/CMOS/!svn/ver/1819/Guariguanchi/trunk/include/GBField.h
+END
+GSurfaceDiskSection.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CMOS/!svn/ver/1901/Guariguanchi/trunk/include/GSurfaceDiskSection.h
+END
+GGeoPlane.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/CMOS/!svn/ver/1918/Guariguanchi/trunk/include/GGeoPlane.h
+END
+GSurfaceCone.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/include/GSurfaceCone.h
+END
+Guariguanchi.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/CMOS/!svn/ver/2021/Guariguanchi/trunk/include/Guariguanchi.h
+END
+GTrackFinderAlgoFPCCD.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/CMOS/!svn/ver/1983/Guariguanchi/trunk/include/GTrackFinderAlgoFPCCD.h
+END
+GGeoPetal.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/CMOS/!svn/ver/1918/Guariguanchi/trunk/include/GGeoPetal.h
+END
+GSurfaceDisk.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/CMOS/!svn/ver/1833/Guariguanchi/trunk/include/GSurfaceDisk.h
+END
+GGeoCylinder.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/include/GGeoCylinder.h
+END
+GSurfacePlane.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/CMOS/!svn/ver/1833/Guariguanchi/trunk/include/GSurfacePlane.h
+END
+GSurfacePetal.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/CMOS/!svn/ver/1833/Guariguanchi/trunk/include/GSurfacePetal.h
+END
+GTrajectoryHelix.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/include/GTrajectoryHelix.h
+END
+GGlobalTools.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/CMOS/!svn/ver/2022/Guariguanchi/trunk/include/GGlobalTools.h
+END

@@ -1,0 +1,47 @@
+BeginGeoPlane
+  Name             Al plane 1
+  Position          0.0  0.0  0.5  cm
+  RotAngles         0.0  0.0  0.0  deg
+  Material         copper
+  Thickness        100.0   um
+  widthU             2.0   cm
+  widthV             3.0   cm
+  SystemName       Insensitive
+  IsSensitive      false
+EndGeoPlane
+
+BeginGeoPlane
+  Name             Al plane 2
+  Position          0.0  0.0  8.0  cm
+  RotAngles         0.0  0.0  0.0  deg
+  Material         copper
+  Thickness        100.0   um
+  widthU             2.0   cm
+  widthV             3.0   cm
+  SystemName       Insensitive
+  IsSensitive      false
+EndGeoPlane
+
+BeginGeoPlane
+  Name             Al plane 3
+  Position          0.0  0.0 12.0  cm
+  RotAngles         0.0  0.0  0.0  deg
+  Material         copper
+  Thickness        100.0   um
+  widthU             2.0   cm
+  widthV             3.0   cm
+  SystemName       Insensitive
+  IsSensitive      false
+EndGeoPlane
+
+BeginGeoPlane
+  Name             Al plane 3
+  Position          0.0  0.0 19.5  cm
+  RotAngles         0.0  0.0  0.0  deg
+  Material         copper
+  Thickness        100.0   um
+  widthU             2.0   cm
+  widthV             3.0   cm
+  SystemName       Insensitive
+  IsSensitive      false
+EndGeoPlane

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/CMOS/!svn/ver/2001/Guariguanchi/trunk/DataCards/Examples/VertexDetector_and_Tracker_Example/GeometryCards
+END
+Tracker_v1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/CMOS/!svn/ver/1993/Guariguanchi/trunk/DataCards/Examples/VertexDetector_and_Tracker_Example/GeometryCards/Tracker_v1.txt
+END
+BeamPipe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/CMOS/!svn/ver/1861/Guariguanchi/trunk/DataCards/Examples/VertexDetector_and_Tracker_Example/GeometryCards/BeamPipe.txt
+END
+Tracker_v2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/CMOS/!svn/ver/1993/Guariguanchi/trunk/DataCards/Examples/VertexDetector_and_Tracker_Example/GeometryCards/Tracker_v2.txt
+END
+Bfield.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/CMOS/!svn/ver/1856/Guariguanchi/trunk/DataCards/Examples/VertexDetector_and_Tracker_Example/GeometryCards/Bfield.txt
+END
+Si_Tracker_Geometry_v1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/CMOS/!svn/ver/1995/Guariguanchi/trunk/DataCards/Examples/VertexDetector_and_Tracker_Example/GeometryCards/Si_Tracker_Geometry_v1.txt
+END
+Si_Tracker_Geometry_v2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/CMOS/!svn/ver/1983/Guariguanchi/trunk/DataCards/Examples/VertexDetector_and_Tracker_Example/GeometryCards/Si_Tracker_Geometry_v2.txt
+END
+Telescope_and_DUT_configuration.txt
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/CMOS/!svn/ver/1869/Guariguanchi/trunk/DataCards/Examples/VertexDetector_and_Tracker_Example/GeometryCards/Telescope_and_DUT_configuration.txt
+END
+TrackFinderAlgosConfig.txt
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/CMOS/!svn/ver/2001/Guariguanchi/trunk/DataCards/Examples/VertexDetector_and_Tracker_Example/GeometryCards/TrackFinderAlgosConfig.txt
+END
+Tracker_WorldVolume.txt
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/CMOS/!svn/ver/1856/Guariguanchi/trunk/DataCards/Examples/VertexDetector_and_Tracker_Example/GeometryCards/Tracker_WorldVolume.txt
+END
+Systems_Configuration.txt
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/CMOS/!svn/ver/1861/Guariguanchi/trunk/DataCards/Examples/VertexDetector_and_Tracker_Example/GeometryCards/Systems_Configuration.txt
+END
+TPC_InnerRadius_and_1stLayer.txt
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/CMOS/!svn/ver/1861/Guariguanchi/trunk/DataCards/Examples/VertexDetector_and_Tracker_Example/GeometryCards/TPC_InnerRadius_and_1stLayer.txt
+END

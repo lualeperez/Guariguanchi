@@ -1,0 +1,8 @@
+//Beam-test configuration: Telescope and DUT configurations
+
+BeginBeamTestConfiguration
+  TelescopeLayersList    Telescope-1  Telescope-2  Telescope-3  Telescope-4  Telescope-5  Telescope-6
+  DUTLayersList          DUT-1  DUT-2  DUT-3
+EndBeamTestConfiguration
+
+

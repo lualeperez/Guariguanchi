@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/CMOS/!svn/ver/2007/Guariguanchi/trunk/DataCards/Examples/Mosaic_ILD_Tracking/GeometryCards
+END
+ILC_TrackinSystem_Geometry.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/CMOS/!svn/ver/2002/Guariguanchi/trunk/DataCards/Examples/Mosaic_ILD_Tracking/GeometryCards/ILC_TrackinSystem_Geometry.txt
+END
+SIT_System.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/CMOS/!svn/ver/2007/Guariguanchi/trunk/DataCards/Examples/Mosaic_ILD_Tracking/GeometryCards/SIT_System.txt
+END
+VXD_System.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/CMOS/!svn/ver/1878/Guariguanchi/trunk/DataCards/Examples/Mosaic_ILD_Tracking/GeometryCards/VXD_System.txt
+END
+FTD_bwd_disks.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/CMOS/!svn/ver/2007/Guariguanchi/trunk/DataCards/Examples/Mosaic_ILD_Tracking/GeometryCards/FTD_bwd_disks.txt
+END
+VXD_SensingLayers.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/CMOS/!svn/ver/2007/Guariguanchi/trunk/DataCards/Examples/Mosaic_ILD_Tracking/GeometryCards/VXD_SensingLayers.txt
+END
+TrackFinderAlgosConfig.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/CMOS/!svn/ver/2004/Guariguanchi/trunk/DataCards/Examples/Mosaic_ILD_Tracking/GeometryCards/TrackFinderAlgosConfig.txt
+END
+FTD_fwd_disks.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/CMOS/!svn/ver/2007/Guariguanchi/trunk/DataCards/Examples/Mosaic_ILD_Tracking/GeometryCards/FTD_fwd_disks.txt
+END
+WorldVolume.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/CMOS/!svn/ver/1889/Guariguanchi/trunk/DataCards/Examples/Mosaic_ILD_Tracking/GeometryCards/WorldVolume.txt
+END
+FTD_System.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/CMOS/!svn/ver/1878/Guariguanchi/trunk/DataCards/Examples/Mosaic_ILD_Tracking/GeometryCards/FTD_System.txt
+END
+TPC_HitsCuts_v1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/CMOS/!svn/ver/1878/Guariguanchi/trunk/DataCards/Examples/Mosaic_ILD_Tracking/GeometryCards/TPC_HitsCuts_v1.txt
+END
+TPC_HitsCuts_v2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/CMOS/!svn/ver/1878/Guariguanchi/trunk/DataCards/Examples/Mosaic_ILD_Tracking/GeometryCards/TPC_HitsCuts_v2.txt
+END
+TPC_walls.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/CMOS/!svn/ver/1878/Guariguanchi/trunk/DataCards/Examples/Mosaic_ILD_Tracking/GeometryCards/TPC_walls.txt
+END
+TPC_System.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/CMOS/!svn/ver/1878/Guariguanchi/trunk/DataCards/Examples/Mosaic_ILD_Tracking/GeometryCards/TPC_System.txt
+END
+TPC_SensingLayers.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/CMOS/!svn/ver/1878/Guariguanchi/trunk/DataCards/Examples/Mosaic_ILD_Tracking/GeometryCards/TPC_SensingLayers.txt
+END
+Systems_Configuration.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/CMOS/!svn/ver/1878/Guariguanchi/trunk/DataCards/Examples/Mosaic_ILD_Tracking/GeometryCards/Systems_Configuration.txt
+END

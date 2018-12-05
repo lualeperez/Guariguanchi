@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/CMOS/!svn/ver/2023/Guariguanchi/trunk/src
+END
+GGeoDisk.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/src/GGeoDisk.cc
+END
+GBField.cc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/CMOS/!svn/ver/1806/Guariguanchi/trunk/src/GBField.cc
+END
+GTrajectory.cc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/CMOS/!svn/ver/1890/Guariguanchi/trunk/src/GTrajectory.cc
+END
+Setup.cc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/CMOS/!svn/ver/2021/Guariguanchi/trunk/src/Setup.cc
+END
+GTrajectoryStraight.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/src/GTrajectoryStraight.cc
+END
+GSurfaceCone.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/src/GSurfaceCone.cc
+END
+Guariguanchi.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/CMOS/!svn/ver/2021/Guariguanchi/trunk/src/Guariguanchi.cc
+END
+GTrackFinderAlgoFPCCD.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/CMOS/!svn/ver/1983/Guariguanchi/trunk/src/GTrackFinderAlgoFPCCD.cc
+END
+GSurfaceDisk.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/CMOS/!svn/ver/1901/Guariguanchi/trunk/src/GSurfaceDisk.cc
+END
+GGeoConeSection.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/src/GGeoConeSection.cc
+END
+GGeoDiskSection.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/src/GGeoDiskSection.cc
+END
+AnalysisHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/CMOS/!svn/ver/2017/Guariguanchi/trunk/src/AnalysisHandler.cc
+END
+GBFieldMultipleSteps.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CMOS/!svn/ver/1961/Guariguanchi/trunk/src/GBFieldMultipleSteps.cc
+END
+GGlobalTools.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/CMOS/!svn/ver/2023/Guariguanchi/trunk/src/GGlobalTools.cc
+END
+GSurfaceConeSection.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/src/GSurfaceConeSection.cc
+END
+GResolutionModel.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/CMOS/!svn/ver/1806/Guariguanchi/trunk/src/GResolutionModel.cc
+END
+GEfficiencyModel.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/CMOS/!svn/ver/1919/Guariguanchi/trunk/src/GEfficiencyModel.cc
+END
+GSurfaceDiskSection.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CMOS/!svn/ver/1911/Guariguanchi/trunk/src/GSurfaceDiskSection.cc
+END
+GGeoCylinderSection.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/src/GGeoCylinderSection.cc
+END
+GGeoPlane.cc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/CMOS/!svn/ver/1918/Guariguanchi/trunk/src/GGeoPlane.cc
+END
+GResolutionModelTPC.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CMOS/!svn/ver/2014/Guariguanchi/trunk/src/GResolutionModelTPC.cc
+END
+GTracker.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/CMOS/!svn/ver/2022/Guariguanchi/trunk/src/GTracker.cc
+END
+GGeometry.cc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/CMOS/!svn/ver/2018/Guariguanchi/trunk/src/GGeometry.cc
+END
+GBFieldConstant.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/CMOS/!svn/ver/1890/Guariguanchi/trunk/src/GBFieldConstant.cc
+END
+GTrackFinderAlgo.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/CMOS/!svn/ver/1979/Guariguanchi/trunk/src/GTrackFinderAlgo.cc
+END
+GGeoPetal.cc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/CMOS/!svn/ver/1918/Guariguanchi/trunk/src/GGeoPetal.cc
+END
+GGeoObject.cc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/CMOS/!svn/ver/1982/Guariguanchi/trunk/src/GGeoObject.cc
+END
+GGeoCylinder.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/src/GGeoCylinder.cc
+END
+GSurfaceCylinderSection.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/src/GSurfaceCylinderSection.cc
+END
+GSurfacePlane.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/CMOS/!svn/ver/1877/Guariguanchi/trunk/src/GSurfacePlane.cc
+END
+GSurfacePetal.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/CMOS/!svn/ver/1877/Guariguanchi/trunk/src/GSurfacePetal.cc
+END
+GGeoCone.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/src/GGeoCone.cc
+END
+GUtiliratyFunctions.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CMOS/!svn/ver/1932/Guariguanchi/trunk/src/GUtiliratyFunctions.cc
+END
+GSurfaceObject.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/CMOS/!svn/ver/1961/Guariguanchi/trunk/src/GSurfaceObject.cc
+END
+GTrajectoryHelix.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/CMOS/!svn/ver/2020/Guariguanchi/trunk/src/GTrajectoryHelix.cc
+END
+GTrajectoryMultipleSteps.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/CMOS/!svn/ver/1934/Guariguanchi/trunk/src/GTrajectoryMultipleSteps.cc
+END
+GSurfaceCylinder.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/CMOS/!svn/ver/1931/Guariguanchi/trunk/src/GSurfaceCylinder.cc
+END
+GeometryHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/CMOS/!svn/ver/2006/Guariguanchi/trunk/src/GeometryHandler.cc
+END

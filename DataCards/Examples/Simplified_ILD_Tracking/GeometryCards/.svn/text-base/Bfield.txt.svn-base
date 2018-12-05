@@ -1,0 +1,10 @@
+///////////////////////////////
+/////// Geometry Bfield ///////
+///////////////////////////////
+
+BeginConstantBfield
+  Magnitude     3.5  T
+  Direction     0.0  0.0  1.0
+EndConstantBfield
+
+

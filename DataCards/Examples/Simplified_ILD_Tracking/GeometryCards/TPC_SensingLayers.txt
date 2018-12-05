@@ -1,0 +1,30 @@
+//TPC resolution model
+BeginTPCResolutionModel
+  Name  TPC_ILD_Resol_Model
+  A_U    50.0       um
+  B_U   900.0       um
+  C_U     3.657e-3  um
+  A_V   400.0       um
+  B_V     0.64      um
+EndTPCResolutionModel
+
+//TPC Sensitive Layers
+BeginGasDetector
+  GasDetName              TPC measurement layer
+  GasDetPosition          0.0  0.0  0.0 cm
+  GasDetRotAngles         0.0  0.0  0.0 deg
+  GasDetRin                35.4 cm
+  GasDetRout              171.4 cm
+  GasDetLength            470.0 cm
+  GasDetNLayers           220
+  GasDetMaterial          TPCGAS
+  GasDetResolutionModel   TPC_ILD_Resol_Model
+  GasDetLayerName         TPC-sensing-gas
+  GasDetResolutionU        50.0 um
+  GasDetResolutionV       400.0 um
+  GasDetEfficiency          0.99
+  GasDetROtime              1.0 us
+  GasDetBkgRate             0.0 kHz/cm2
+EndGasDetector
+
+

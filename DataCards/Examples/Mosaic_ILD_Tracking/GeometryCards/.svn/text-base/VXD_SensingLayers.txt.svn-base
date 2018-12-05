@@ -1,0 +1,234 @@
+/////////////////////////////////////////
+//////////// VXD Geometry ///////////////
+/////////////////////////////////////////
+
+//1st detection layer
+BeginMosaicLadderPlane
+  LadderName        1st VXD layer
+  LadderMosaic      Spiral
+  LadderPosition    0.0  0.0  0.0  mm
+  LadderRotAngles   0.0  0.0  0.0  deg
+  LadderVarPar      Overlap
+  LadderRadius      1.6 cm
+  LadderOverlap     0.05
+  LadderClearanceH  100 um
+  LadderClearanceV  100 um
+  LadderAlpha0      0.0 deg
+  LadderN           10
+
+  BeginPlane
+    Name             sensor down
+    Position         0.0  0.0  0.0  mm
+    Material         silicon
+    Thickness        140.0 um
+    //XOX0             0.0015
+    widthU           11.5 mm
+    widthV           16.5 cm
+    IsSensitive      true
+    ResolutionU      3.0 um
+    ResolutionV      3.0 um
+    ROtime           4.0 us
+    Efficiency       0.99
+    InsensFracUneg   0.0
+    InsensFracUpos   0.0
+    InsensFracVneg   0.12
+    InsensFracVpos   0.12
+    BkgRate          30.0  MHz/cm2
+    LayerName        VXD-layer-1
+  EndPlane
+  
+EndMosaicLadderPlane
+
+//2nd detection layer
+BeginMosaicLadderPlane
+  LadderName        2nd VXD layer
+  LadderMosaic      Spiral
+  LadderPosition    0.0  0.0  0.0  mm
+  LadderRotAngles   0.0  0.0  0.0  deg
+  LadderVarPar      Overlap
+  LadderRadius      1.8 cm
+  LadderOverlap     0.05
+  LadderClearanceH  100 um
+  LadderClearanceV  100 um
+  LadderAlpha0      0.0 deg
+  LadderN           10
+  LadderShift       0.851989
+  LadderShiftFix    true
+
+  BeginPlane
+    Name             sensor up
+    Position         0.0  0.0  0.0  mm
+    Material         silicon
+    Thickness        140.0 um
+    //XOX0             0.0015
+    widthU           11.5 mm
+    widthV           16.5 cm
+    IsSensitive      true
+    ResolutionU      3.0 um
+    ResolutionV      3.0 um
+    ROtime           4.0 us
+    Efficiency       0.99
+    InsensFracUneg   0.0
+    InsensFracUpos   0.0
+    InsensFracVneg   0.12
+    InsensFracVpos   0.12
+    BkgRate          22.0  MHz/cm2
+    LayerName        VXD-layer-2
+  EndPlane
+  
+EndMosaicLadderPlane
+
+//3rd detection layer
+BeginMosaicLadderPlane
+  LadderName        3rd VXD layer
+  LadderMosaic      Spiral
+  LadderPosition    0.0  0.0  0.0  mm
+  LadderRotAngles   0.0  0.0  0.0  deg
+  LadderVarPar      Overlap
+  LadderRadius      3.7 cm
+  LadderOverlap     0.05
+  LadderClearanceH  100 um
+  LadderClearanceV  100 um
+  LadderAlpha0      180.0 deg
+  LadderN           11
+
+  BeginPlane
+    Name             sensor down
+    Position         0.0  0.0  0.0  mm
+    Material         silicon
+    Thickness        140.0 um
+    //XOX0             0.0015
+    widthU           22.5 mm
+    widthV           29.0 cm
+    IsSensitive      true
+    ResolutionU      3.0 um
+    ResolutionV      3.0 um
+    ROtime           4.0 us
+    Efficiency       0.99
+    InsensFracUneg   0.0
+    InsensFracUpos   0.0
+    InsensFracVneg   0.07
+    InsensFracVpos   0.07
+    BkgRate          1.00  MHz/cm2
+    LayerName        VXD-layer-3
+  EndPlane
+  
+EndMosaicLadderPlane
+ 
+//4th detection layer
+BeginMosaicLadderPlane
+  LadderName        4th VXD layer
+  LadderMosaic      Spiral
+  LadderPosition    0.0  0.0  0.0  mm
+  LadderRotAngles   0.0  0.0  0.0  deg
+  LadderVarPar      Overlap
+  LadderRadius      3.9 cm
+  LadderOverlap     0.05
+  LadderClearanceH  100 um
+  LadderClearanceV  100 um
+  LadderAlpha0      180.0 deg
+  LadderN           11
+  LadderShift       0.935985
+  LadderShiftFix    true
+
+  BeginPlane
+    Name             sensor up
+    Position         0.0  0.0  0.0  mm
+    Material         silicon
+    Thickness        140.0 um
+    //XOX0             0.0015
+    widthU           22.5 mm
+    widthV           29.0 cm
+    IsSensitive      true
+    ResolutionU      3.0 um
+    ResolutionV      3.0 um
+    ROtime           4.0 us
+    Efficiency       0.99
+    InsensFracUneg   0.0
+    InsensFracUpos   0.0
+    InsensFracVneg   0.07
+    InsensFracVpos   0.07
+    BkgRate          0.74  MHz/cm2
+    LayerName        VXD-layer-4
+  EndPlane
+  
+EndMosaicLadderPlane
+ 
+//5th detection layer
+BeginMosaicLadderPlane
+  LadderName        5th VXD layer
+  LadderMosaic      Spiral
+  LadderPosition    0.0  0.0  0.0  mm
+  LadderRotAngles   0.0  0.0  0.0  deg
+  LadderVarPar      Overlap
+  LadderRadius      5.8 cm
+  LadderOverlap     0.05
+  LadderClearanceH  100 um
+  LadderClearanceV  100 um
+  LadderAlpha0      180.0 deg
+  LadderN           17
+
+  BeginPlane
+    Name             sensor down
+    Position         0.0  0.0  0.0  mm
+    Material         silicon
+    Thickness        140.0 um
+    //XOX0             0.0015
+    widthU           22.5 mm
+    widthV           29.0 cm
+    IsSensitive      true
+    ResolutionU      3.0 um
+    ResolutionV      3.0 um
+    ROtime           4.0 us
+    Efficiency       0.99
+    InsensFracUneg   0.0
+    InsensFracUpos   0.0
+    InsensFracVneg   0.07
+    InsensFracVpos   0.07
+    BkgRate          0.20  MHz/cm2
+    LayerName        VXD-layer-5
+  EndPlane
+  
+EndMosaicLadderPlane
+
+//6th detection layer
+BeginMosaicLadderPlane
+  LadderName        6th VXD layer
+  LadderMosaic      Spiral
+  LadderPosition    0.0  0.0  0.0  mm
+  LadderRotAngles   0.0  0.0  0.0  deg
+  LadderVarPar      Overlap
+  LadderRadius      6.0 cm
+  LadderOverlap     0.05
+  LadderClearanceH  100 um
+  LadderClearanceV  100 um
+  LadderAlpha0      180.0 deg
+  LadderN           17
+  LadderShift       0.920723
+  LadderShiftFix    true
+
+  BeginPlane
+    Name             sensor up
+    Position         0.0  0.0  0.0  mm
+    Material         silicon
+    Thickness        140.0 um
+    //XOX0             0.0015
+    widthU           22.5 mm
+    widthV           29.0 cm
+    IsSensitive      true
+    ResolutionU      3.0 um
+    ResolutionV      3.0 um
+    ROtime           4.0 us
+    Efficiency       0.99
+    InsensFracUneg   0.0
+    InsensFracUpos   0.0
+    InsensFracVneg   0.07
+    InsensFracVpos   0.07
+    BkgRate          0.74  MHz/cm2
+    LayerName        VXD-layer-6
+  EndPlane
+  
+EndMosaicLadderPlane
+
+
+

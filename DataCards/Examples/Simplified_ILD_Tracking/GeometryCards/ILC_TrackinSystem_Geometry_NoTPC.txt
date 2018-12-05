@@ -1,0 +1,29 @@
+//ILD VXD + SID as in table 2.1.1 (pag 11) of DBD
+GeometryName:  ILD_l4_v02
+
+// The B-field
+InputFile:  DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/Bfield.txt
+
+//World Volume
+InputFile:  DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/WorldVolume.txt
+
+// Beam-pipe Geometry
+InputFile:  DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/BeamPipe.txt
+
+// VXD system
+InputFile:  DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/VXD_System.txt
+
+// SIT system
+InputFile:  DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/SIT_System.txt
+
+// FTD system
+InputFile:  DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/FTD_System.txt
+
+//TPC system
+//InputFile:  DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/TPC_System.txt
+
+//Systems configuration
+InputFile:  DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/Systems_Configuration.txt
+
+//Track finding algos config
+InputFile:  DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/TrackFinderAlgosConfig.txt

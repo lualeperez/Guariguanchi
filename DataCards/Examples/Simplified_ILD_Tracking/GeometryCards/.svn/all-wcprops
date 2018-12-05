@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/CMOS/!svn/ver/2007/Guariguanchi/trunk/DataCards/Examples/Simplified_ILD_Tracking/GeometryCards
+END
+ILC_TrackinSystem_Geometry.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/CMOS/!svn/ver/2000/Guariguanchi/trunk/DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/ILC_TrackinSystem_Geometry.txt
+END
+Systems_Configuration.txt.backup
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/CMOS/!svn/ver/1875/Guariguanchi/trunk/DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/Systems_Configuration.txt.backup
+END
+SIT_System.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/CMOS/!svn/ver/2007/Guariguanchi/trunk/DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/SIT_System.txt
+END
+VXD_BeSupport.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/CMOS/!svn/ver/1875/Guariguanchi/trunk/DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/VXD_BeSupport.txt
+END
+VXD_System.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/CMOS/!svn/ver/1875/Guariguanchi/trunk/DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/VXD_System.txt
+END
+ILC_TrackinSystem_Geometry_NoTPC.txt
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/CMOS/!svn/ver/2000/Guariguanchi/trunk/DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/ILC_TrackinSystem_Geometry_NoTPC.txt
+END
+VXD_SensingLayers.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/CMOS/!svn/ver/2007/Guariguanchi/trunk/DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/VXD_SensingLayers.txt
+END
+VXD_FaradayCage.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/CMOS/!svn/ver/1875/Guariguanchi/trunk/DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/VXD_FaradayCage.txt
+END
+TrackFinderAlgosConfig.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/CMOS/!svn/ver/2005/Guariguanchi/trunk/DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/TrackFinderAlgosConfig.txt
+END
+VXD_Cables.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/CMOS/!svn/ver/1875/Guariguanchi/trunk/DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/VXD_Cables.txt
+END
+WorldVolume.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/CMOS/!svn/ver/1875/Guariguanchi/trunk/DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/WorldVolume.txt
+END
+FTD_System.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/CMOS/!svn/ver/2007/Guariguanchi/trunk/DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/FTD_System.txt
+END
+TPC_HitsCuts_v1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/CMOS/!svn/ver/1875/Guariguanchi/trunk/DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/TPC_HitsCuts_v1.txt
+END
+BeamPipe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/CMOS/!svn/ver/1875/Guariguanchi/trunk/DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/BeamPipe.txt
+END
+TPC_HitsCuts_v2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/CMOS/!svn/ver/1875/Guariguanchi/trunk/DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/TPC_HitsCuts_v2.txt
+END
+Bfield.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/CMOS/!svn/ver/1875/Guariguanchi/trunk/DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/Bfield.txt
+END
+TPC_walls.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/CMOS/!svn/ver/1875/Guariguanchi/trunk/DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/TPC_walls.txt
+END
+TPC_System.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/CMOS/!svn/ver/1875/Guariguanchi/trunk/DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/TPC_System.txt
+END
+TPC_SensingLayers.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/CMOS/!svn/ver/1887/Guariguanchi/trunk/DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/TPC_SensingLayers.txt
+END
+Systems_Configuration.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/CMOS/!svn/ver/1875/Guariguanchi/trunk/DataCards/Examples/Simplified_ILD_Tracking/GeometryCards/Systems_Configuration.txt
+END

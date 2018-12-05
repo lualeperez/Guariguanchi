@@ -1,0 +1,105 @@
+/////////////////////////////////////////
+/////// Beam-pipe Geometry //////////////
+/////////////////////////////////////////
+
+//Central beam-pipe Cylinder
+BeginGeoCylinder
+  Name            Central Beam-Pipe
+  Position        0.0  0.0  0.0  cm
+  RotAngles       0.0  0.0  0.0  deg
+  Thickness       500.0 um
+  Material        beryllium
+  Length          16.0  cm
+  Radius          1.375 cm  
+  IsSensitive     false
+  LayerName       Beam-Pipe
+EndGeoCylinder
+
+//the beam-pipe 1st FWD Cone
+BeginGeoCone
+  Name              Beam-Pipe 1st Cone FWD
+  Position          0.0    0.0   11.5  cm
+  RotAngles         0.0    0.0    0.0  deg 
+  Thickness1        758.4 um
+  Thickness2        758.4 um
+  Material          beryllium
+  Length            7.0   cm
+  Radius1           1.388 cm
+  Radius2           2.438 cm
+  IsSensitive       false
+  LayerName         Beam-Pipe
+EndGeoCone
+
+//the beam-pipe 1st BWD Cone
+BeginGeoCone
+  Name              Beam-Pipe 1st Cone BWD
+  Position          0.0    0.0  -11.5  cm
+  RotAngles         0.0  180.0    0.0  deg 
+  Thickness1        758.4 um
+  Thickness2        758.4 um
+  Material          beryllium
+  Length            7.0   cm
+  Radius1           1.388 cm
+  Radius2           2.438 cm
+  IsSensitive       false
+  LayerName         Beam-Pipe
+EndGeoCone
+
+//the beam-pipe 2nd FWD Cylinder
+BeginGeoCylinder
+  Name            Beam-Pipe 2nd Cylinder FWD
+  Position        0.0  0.0  19.0  cm
+  RotAngles       0.0  0.0   0.0  deg 
+  Thickness       750.0 um
+  Material        beryllium
+  Length          8.0  cm
+  Radius          2.438 cm  
+  IsSensitive     false
+  LayerName       Beam-Pipe
+EndGeoCylinder
+
+//the beam-pipe 2nd BWD Cylinder
+BeginGeoCylinder
+  Name            Beam-Pipe 2nd Cylinder BWD
+  Position        0.0  0.0 -19.0  cm
+  RotAngles       0.0  0.0   0.0  deg 
+  Thickness       750.0 um
+  Material        beryllium
+  Length          8.0  cm
+  Radius          2.438 cm  
+  IsSensitive     false
+  LayerName       Beam-Pipe
+EndGeoCylinder
+
+//the beam-pipe 2nd FWD Cone
+BeginGeoCone
+  Name              Beam-Pipe 2nd Cone FWD
+  Position          0.0    0.0   128.852  cm
+  RotAngles         0.0    0.0     0.0    deg 
+  Thickness1        2.7143 mm
+  Thickness2        2.7143 mm
+  Material          BeampipeBeCableMix
+  Length            211.695 cm
+  Radius1             2.536 cm
+  Radius2            17.949 cm
+  IsSensitive       false
+  LayerName         Beam-Pipe
+EndGeoCone
+
+//the beam-pipe 2nd BWD Cone
+BeginGeoCone
+  Name              Beam-Pipe 2nd Cone BWD
+  Position          0.0    0.0  -128.852  cm
+  RotAngles         0.0  180.0     0.0    deg 
+  Thickness1        2.7143 mm
+  Thickness2        2.7143 mm
+  Material          BeampipeBeCableMix
+  Length            211.695 cm
+  Radius1             2.536 cm
+  Radius2            17.949 cm
+  IsSensitive       false
+  LayerName         Beam-Pipe
+EndGeoCone
+
+
+

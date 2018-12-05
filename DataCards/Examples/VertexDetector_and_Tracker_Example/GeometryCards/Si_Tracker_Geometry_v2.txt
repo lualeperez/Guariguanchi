@@ -1,0 +1,31 @@
+GeometryName:  Vertex & Tracker Setup v2
+
+//World Volume
+InputFile:  DataCards/Examples/VertexDetector_and_Tracker_Example/GeometryCards/Tracker_WorldVolume.txt
+
+//Bf-field
+InputFile:  DataCards/Examples/VertexDetector_and_Tracker_Example/GeometryCards/Bfield.txt
+
+//Beam-pipe
+InputFile:  DataCards/Examples/VertexDetector_and_Tracker_Example/GeometryCards/BeamPipe.txt
+
+//Tacker Geometry
+InputFile:  DataCards/Examples/VertexDetector_and_Tracker_Example/GeometryCards/Tracker_v2.txt
+
+//Telescope and DUT config
+InputFile:  DataCards/Examples/VertexDetector_and_Tracker_Example/GeometryCards/Telescope_and_DUT_configuration.txt
+
+//Systems configuration
+InputFile:  DataCards/Examples/VertexDetector_and_Tracker_Example/GeometryCards/Systems_Configuration.txt
+
+//Track finding algos config
+InputFile:  DataCards/Examples/VertexDetector_and_Tracker_Example/GeometryCards/TrackFinderAlgosConfig.txt
+
+
+
+
+
+
+
+
+

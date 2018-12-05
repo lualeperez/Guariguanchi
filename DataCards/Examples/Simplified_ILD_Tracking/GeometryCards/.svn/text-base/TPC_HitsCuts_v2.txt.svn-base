@@ -1,0 +1,12 @@
+BeginTrackCuts
+  SystemName      TPC detector
+  
+  BeginCut
+    thetaRange      0.0   180.0   deg
+    pRange          0.0   500.1   GeV/c
+    NhitsRange     30.0  1000.0
+  EndCut
+  
+EndTrackCuts
+
+  

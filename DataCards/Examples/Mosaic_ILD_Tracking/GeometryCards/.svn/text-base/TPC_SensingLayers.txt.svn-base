@@ -1,0 +1,3759 @@
+
+//TPC resolution model
+BeginTPCResolutionModel
+  Name  TPC_ILD_Resol_Model
+  A_U    50.0       um
+  B_U   900.0       um
+  C_U     3.657e-3  um
+  A_V   400.0       um
+  B_V     0.64      um
+EndTPCResolutionModel
+
+//TPC Sensitive Layers
+BeginLadderCylinder
+  LadderName       TPC measurement layers
+  LadderPosition   0.0  0.0  0.0  cm
+  LadderRotAngles  0.0  0.0  0.0  deg
+  LadderRadius     35.4  cm 
+
+  BeginCylinder
+    Name            TPC measurement layer 1
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          0.309091 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 2
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          0.927273 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 3
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          1.54545 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 4
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          2.16364 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 5
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          2.78182 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 6
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          3.4 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 7
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          4.01818 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 8
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          4.63636 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 9
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          5.25455 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 10
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          5.87273 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 11
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          6.49091 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 12
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          7.10909 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 13
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          7.72727 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 14
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          8.34545 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 15
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          8.96364 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 16
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          9.58182 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 17
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          10.2 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 18
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          10.8182 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 19
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          11.4364 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 20
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          12.0545 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 21
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          12.6727 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 22
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          13.2909 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 23
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          13.9091 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 24
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          14.5273 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 25
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          15.1455 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 26
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          15.7636 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 27
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          16.3818 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 28
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          17 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 29
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          17.6182 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 30
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          18.2364 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 31
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          18.8545 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 32
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          19.4727 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 33
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          20.0909 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 34
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          20.7091 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 35
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          21.3273 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 36
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          21.9455 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 37
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          22.5636 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 38
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          23.1818 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 39
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          23.8 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 40
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          24.4182 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 41
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          25.0364 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 42
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          25.6545 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 43
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          26.2727 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 44
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          26.8909 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 45
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          27.5091 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 46
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          28.1273 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 47
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          28.7455 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 48
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          29.3636 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 49
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          29.9818 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 50
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          30.6 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 51
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          31.2182 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 52
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          31.8364 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 53
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          32.4545 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 54
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          33.0727 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 55
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          33.6909 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 56
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          34.3091 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 57
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          34.9273 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 58
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          35.5455 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 59
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          36.1636 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 60
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          36.7818 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 61
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          37.4 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 62
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          38.0182 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 63
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          38.6364 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 64
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          39.2545 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 65
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          39.8727 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 66
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          40.4909 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 67
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          41.1091 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 68
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          41.7273 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 69
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          42.3455 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 70
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          42.9636 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 71
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          43.5818 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 72
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          44.2 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 73
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          44.8182 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 74
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          45.4364 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 75
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          46.0545 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 76
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          46.6727 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 77
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          47.2909 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 78
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          47.9091 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 79
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          48.5273 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 80
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          49.1455 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 81
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          49.7636 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 82
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          50.3818 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 83
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          51 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 84
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          51.6182 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 85
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          52.2364 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 86
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          52.8545 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 87
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          53.4727 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 88
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          54.0909 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 89
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          54.7091 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 90
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          55.3273 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 91
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          55.9455 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 92
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          56.5636 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 93
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          57.1818 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 94
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          57.8 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 95
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          58.4182 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 96
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          59.0364 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 97
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          59.6545 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 98
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          60.2727 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 99
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          60.8909 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 100
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          61.5091 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 101
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          62.1273 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 102
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          62.7455 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 103
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          63.3636 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 104
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          63.9818 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 105
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          64.6 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 106
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          65.2182 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 107
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          65.8364 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 108
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          66.4545 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 109
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          67.0727 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 110
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          67.6909 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 111
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          68.3091 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 112
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          68.9273 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 113
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          69.5455 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 114
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          70.1636 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 115
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          70.7818 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 116
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          71.4 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 117
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          72.0182 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 118
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          72.6364 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 119
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          73.2545 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 120
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          73.8727 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 121
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          74.4909 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 122
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          75.1091 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 123
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          75.7273 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 124
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          76.3455 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 125
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          76.9636 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 126
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          77.5818 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 127
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          78.2 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 128
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          78.8182 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 129
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          79.4364 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 130
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          80.0545 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 131
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          80.6727 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 132
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          81.2909 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 133
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          81.9091 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 134
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          82.5273 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 135
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          83.1455 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 136
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          83.7636 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 137
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          84.3818 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 138
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          85 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 139
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          85.6182 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 140
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          86.2364 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 141
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          86.8545 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 142
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          87.4727 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 143
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          88.0909 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 144
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          88.7091 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 145
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          89.3273 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 146
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          89.9455 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 147
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          90.5636 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 148
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          91.1818 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 149
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          91.8 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 150
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          92.4182 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 151
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          93.0364 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 152
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          93.6545 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 153
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          94.2727 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 154
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          94.8909 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 155
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          95.5091 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 156
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          96.1273 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 157
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          96.7455 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 158
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          97.3636 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 159
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          97.9818 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 160
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          98.6 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 161
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          99.2182 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 162
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          99.8364 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 163
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          100.455 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 164
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          101.073 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 165
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          101.691 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 166
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          102.309 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 167
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          102.927 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 168
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          103.545 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 169
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          104.164 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 170
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          104.782 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 171
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          105.4 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 172
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          106.018 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 173
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          106.636 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 174
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          107.255 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 175
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          107.873 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 176
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          108.491 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 177
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          109.109 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 178
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          109.727 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 179
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          110.345 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 180
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          110.964 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 181
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          111.582 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 182
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          112.2 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 183
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          112.818 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 184
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          113.436 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 185
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          114.055 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 186
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          114.673 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 187
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          115.291 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 188
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          115.909 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 189
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          116.527 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 190
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          117.145 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 191
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          117.764 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 192
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          118.382 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 193
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          119 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 194
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          119.618 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 195
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          120.236 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 196
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          120.855 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 197
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          121.473 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 198
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          122.091 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 199
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          122.709 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 200
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          123.327 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 201
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          123.945 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 202
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          124.564 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 203
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          125.182 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 204
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          125.8 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 205
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          126.418 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 206
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          127.036 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 207
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          127.655 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 208
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          128.273 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 209
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          128.891 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 210
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          129.509 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 211
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          130.127 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 212
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          130.745 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 213
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          131.364 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 214
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          131.982 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 215
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          132.6 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 216
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          133.218 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 217
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          133.836 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 218
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          134.455 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 219
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          135.073 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+
+  BeginCylinder
+    Name            TPC measurement layer 220
+    Material        TPCGAS
+    Thickness       6.18182 mm
+    Radius          135.691 cm
+    Length          470 cm
+    IsSensitive     true
+    ResoutionModel  TPC_ILD_Resol_Model
+    ResolutionU     50 um
+    ResolutionV     400 um
+    ROtime          1 us
+    Efficiency      0.99
+    LayerName       TPC-sensing-gas
+    BkgRate         0.0  kHz/cm2
+  EndCylinder
+
+EndLadderCylinder
+

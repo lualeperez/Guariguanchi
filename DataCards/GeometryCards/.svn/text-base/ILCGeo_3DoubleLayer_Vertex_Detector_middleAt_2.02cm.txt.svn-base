@@ -1,0 +1,398 @@
+GeometryType:  Vertex-Det
+GeometryName:  3 double-layers, middle @ 2.02 cm
+
+//the beam-pipe
+BeginLadder
+  LadderName Beam-Pipe
+  LadderPos   1.5 cm
+  
+  BeginPlane
+    PlaneName    Beam-pipe
+    Pos          0.0 um
+    Material     beryllium
+    Thickness    500 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth       10.0 cm
+  EndPlane
+  
+EndLadder
+
+//1st detection ladder
+BeginLadder
+  LadderName  1st double-sided layer
+  LadderPos   1.6  cm
+  IsTracking  true
+  
+  BeginPlane
+    PlaneName    Si-sensor
+    Pos          0.0  um
+    Material     silicon
+    Thickness    50.0 um
+    IsSensitive  true
+    Resolution   3.0 um
+    ROtime       1.0 us
+    Efficiency   0.999
+    //Uwidth       2.0 cm
+    Vwidth       10.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    glue
+    Pos          30.0  um
+    Material     epoxy
+    Thickness    10.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      10.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    flex-support
+    Pos          85.0  um
+    Material     kapton
+    Thickness    100.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      10.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    flex-lines
+    Pos          160.0 um
+    Material     aluminum
+    Thickness    50.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      10.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    glue
+    Pos          190.0 um
+    Material     epoxy
+    Thickness    10.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      10.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    Support
+    Pos          445.0 um
+    Material     CarbonFiber
+    Thickness    500.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      10.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    glue
+    Pos          700.0 um
+    Material     epoxy
+    Thickness    10.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      10.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    flex-lines
+    Pos          730.0 um
+    Material     aluminum
+    Thickness    50.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      10.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    flex-support
+    Pos          805.0 um
+    Material     kapton
+    Thickness    100.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      10.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    glue
+    Pos          860.0 um
+    Material     epoxy
+    Thickness    10.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      10.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    Si-sensor
+    Pos          890.0 um
+    Material     silicon
+    Thickness    50.0 um
+    IsSensitive  true
+    Resolution   3.0 um
+    ROtime       1.0 us
+    Efficiency   0.999
+    //Uwidth       2.0 cm
+    Vwidth      10.0 cm
+  EndPlane
+  
+EndLadder
+
+
+//2nd detection ladder
+BeginLadder
+  LadderName  2nd double-sided layer
+  LadderPos   2.02  cm
+  IsTracking  true
+  
+  BeginPlane
+    PlaneName    Si-sensor
+    Pos          0.0  um
+    Material     silicon
+    Thickness    50.0 um
+    IsSensitive  true
+    Resolution   3.0 um
+    ROtime       1.0 us
+    Efficiency   0.999
+    //Uwidth       2.0 cm
+    Vwidth       20.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    glue
+    Pos          30.0  um
+    Material     epoxy
+    Thickness    10.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      20.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    flex-support
+    Pos          85.0  um
+    Material     kapton
+    Thickness    100.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      20.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    flex-lines
+    Pos          160.0 um
+    Material     aluminum
+    Thickness    50.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      20.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    glue
+    Pos          190.0 um
+    Material     epoxy
+    Thickness    10.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      20.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    Support
+    Pos          445.0 um
+    Material     CarbonFiber
+    Thickness    500.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      20.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    glue
+    Pos          700.0 um
+    Material     epoxy
+    Thickness    10.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      20.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    flex-lines
+    Pos          730.0 um
+    Material     aluminum
+    Thickness    50.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      20.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    flex-support
+    Pos          805.0 um
+    Material     kapton
+    Thickness    100.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      20.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    glue
+    Pos          860.0 um
+    Material     epoxy
+    Thickness    10.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      20.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    Si-sensor
+    Pos          890.0 um
+    Material     silicon
+    Thickness    50.0 um
+    IsSensitive  true
+    Resolution   3.0 um
+    ROtime       1.0 us
+    Efficiency   0.999
+    //Uwidth       2.0 cm
+    Vwidth      20.0 cm
+  EndPlane
+  
+EndLadder
+
+
+//3rd detection ladder
+BeginLadder
+  LadderName  3rd double-sided layer
+  LadderPos   5.8  cm
+  IsTracking  true
+  
+  BeginPlane
+    PlaneName    Si-sensor
+    Pos          0.0  um
+    Material     silicon
+    Thickness    50.0 um
+    IsSensitive  true
+    Resolution   3.0 um
+    ROtime       1.0 us
+    Efficiency   0.999
+    //Uwidth       2.0 cm
+    Vwidth       20.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    glue
+    Pos          30.0  um
+    Material     epoxy
+    Thickness    10.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      20.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    flex-support
+    Pos          85.0  um
+    Material     kapton
+    Thickness    100.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      20.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    flex-lines
+    Pos          160.0 um
+    Material     aluminum
+    Thickness    50.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      20.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    glue
+    Pos          190.0 um
+    Material     epoxy
+    Thickness    10.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      20.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    Support
+    Pos          445.0 um
+    Material     CarbonFiber
+    Thickness    500.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      20.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    glue
+    Pos          700.0 um
+    Material     epoxy
+    Thickness    10.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      20.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    flex-lines
+    Pos          730.0 um
+    Material     aluminum
+    Thickness    50.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      20.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    flex-support
+    Pos          805.0 um
+    Material     kapton
+    Thickness    100.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      20.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    glue
+    Pos          860.0 um
+    Material     epoxy
+    Thickness    10.0 um
+    IsSensitive  false
+    //Uwidth       2.0 cm
+    Vwidth      20.0 cm
+  EndPlane
+  
+  BeginPlane
+    PlaneName    Si-sensor
+    Pos          890.0 um
+    Material     silicon
+    Thickness    50.0 um
+    IsSensitive  true
+    Resolution   3.0 um
+    ROtime       1.0 us
+    Efficiency   0.999
+    //Uwidth       2.0 cm
+    Vwidth      20.0 cm
+  EndPlane
+  
+EndLadder
+
+
+
+
+

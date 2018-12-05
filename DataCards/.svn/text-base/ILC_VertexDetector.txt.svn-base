@@ -1,0 +1,71 @@
+//BESSIII studies datacard
+
+//Some parameters
+ParticleType:   pi+
+ParticleOrigin: 0.0  0.0  0.0  cm
+
+//Noise density at 1st layer
+BeginNoiseDensity
+  NoiseDensity  10.0  MHz/cm2
+  Radius         1.6  cm
+  //Scaling        R2
+  Scaling        ILC-VXD
+EndNoiseDensity
+
+ReferencePoint: 0.0  0.0  0.0  cm
+
+//Verbose:  true
+Verbose:  false
+
+//PolarAngleValues: 30.0 45.0 60.0 90.0 deg
+PolarAngleValues:     45.0 60.0 90.0 deg
+AzimuthalAngleValues:  0.0 deg
+
+BeginBfield
+  Module     3.5  T
+  Direction  0.0  0.0  1.0
+EndBfield
+
+//Momentum scan parameters
+BeginMomentumScan
+  Nbins    40
+  pMin   150.0  MeV/c
+  pMax     4.0  GeV/c
+EndMomentumScan
+
+//PseudoEfficiency parameters
+BeginPseudoEfficParams
+  NhitsMin    5
+  NfakesMax   0
+  ndf         2
+  chi2Ondf    3.0
+EndPseudoEfficParams
+
+//Noise scan parameters
+BeginNoiseScan
+  Nbins      30
+  NoiseMin   0.5
+  NoiseMax   2.0
+  MomValues  0.1  0.2  1.0 GeV/c
+EndNoiseScan
+
+//Enabled analyses
+//FitParamTest:           true
+//PrintGeometry:          true
+PlotGeometry:           true
+PlotSomeTracks:         true
+//DoResolutionVsMon:      true
+//DoPseudoEfficVsMon:     true
+
+//Geometry lists
+BeginGeometries
+  //Includes SIT
+  DataCards/GeometryCards/ILCGeo_3DoubleLayer_Vertex_Detector_middleAt_3.7cm_NoMaterialModel.txt
+  DataCards/GeometryCards/ILCGeo_5SingleLayer_Vertex_Detector_NoMaterialModel.txt
+EndGeometries
+
+OutputFile: Plots/ILC_VertexDetStudies_NoMaterialModel_withSIT
+
+
+
+

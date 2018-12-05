@@ -1,0 +1,54 @@
+//Systems configuration
+
+BeginSystemsConfiguration
+  BeginSystem
+    Name        Beam-Pipe
+    LayersList  Beam-Pipe
+  EndSystem
+  
+  BeginSystem
+    Name        VXD detector
+    LayersList  VXD-layer-1   VXD-layer-2  VXD-layer-3  VXD-layer-4  VXD-layer-5  VXD-layer-6
+  EndSystem
+  
+  BeginSystem
+    Name        VXD Support
+    LayersList  VXD-Be-Support
+  EndSystem
+  
+  BeginSystem
+    Name        VXD Faraday cage
+    LayersList  VXD-Faraday-Cage
+  EndSystem
+  
+  BeginSystem
+    Name        VXD cables
+    LayersList  VXD-cables
+  EndSystem
+  
+  BeginSystem
+    Name        SIT detector
+    LayersList  SIT-layer-1  SIT-layer-2  SIT-layer-3  SIT-layer-4
+  EndSystem
+  
+  BeginSystem
+    Name        FTD fwd detector
+    LayersList  FTD-fwd-disk-1  FTD-fwd-disk-2  FTD-fwd-disk-3  FTD-fwd-disk-4  FTD-fwd-disk-5  FTD-fwd-disk-6  FTD-fwd-disk-7
+  EndSystem
+  
+  BeginSystem
+    Name        FTD bwd detector
+    LayersList  FTD-bwd-disk-1  FTD-bwd-disk-2  FTD-bwd-disk-3  FTD-bwd-disk-4  FTD-bwd-disk-5  FTD-bwd-disk-6  FTD-bwd-disk-7
+  EndSystem
+  
+  BeginSystem
+    Name        TPC walls
+    LayersList  TPC-walls
+  EndSystem
+  
+  BeginSystem
+    Name        TPC detector
+    LayersList  TPC-sensing-gas
+  EndSystem
+EndSystemsConfiguration
+

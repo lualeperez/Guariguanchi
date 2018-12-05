@@ -1,0 +1,87 @@
+////////////////////////
+////// SIT System //////
+////////////////////////
+
+//1st SIT ladder
+BeginLadderCylinder
+  LadderName         1st SIT layer
+  LadderPosition     0.0   0.0   0.0  cm
+  LadderRotAngles    0.0   0.0   0.0  deg
+  LadderRadius      15.29  cm
+  
+  BeginCylinder
+    Name            sensor bottom
+    Radius            0.0  mm
+    Length           73.6  cm
+    Thickness       608.0  um
+    Material        silicon
+    //XOX0            0.0065
+    IsSensitive     true
+    Resolution       7.0 um
+    ROtime           1.0 us
+    Efficiency       0.99
+    BkgRate         30.0  kHz/cm2
+    LayerName        SIT-layer-1
+  EndCylinder
+  
+  BeginCylinder
+    Name            sensor top
+    Radius            2.0  mm
+    Length           73.6  cm
+    Thickness       608.0  um
+    Material        silicon
+    //XOX0            0.0065
+    IsSensitive     true
+    Resolution       7.0 um
+    ROtime           1.0 us
+    Efficiency       0.99
+    BkgRate         30.0  kHz/cm2
+    LayerName        SIT-layer-2
+  EndCylinder
+  
+EndLadderCylinder
+
+//2nd SIT ladder
+BeginLadderCylinder
+  LadderName         1st SIT layer
+  LadderPosition     0.0   0.0   0.0  cm
+  LadderRotAngles    0.0   0.0   0.0  deg
+  LadderRadius      29.99  cm
+  
+  BeginCylinder
+    Name            sensor bottom
+    Radius            0.0  mm
+    Length          128.8  cm
+    Thickness       608.0  um
+    Material        silicon
+    //XOX0            0.0065
+    IsSensitive     true
+    Resolution       7.0 um
+    ROtime           1.0 us
+    Efficiency       0.99
+    BkgRate         10.0  kHz/cm2
+    LayerName        SIT-layer-3
+  EndCylinder
+  
+  BeginCylinder
+    Name            sensor top
+    Radius            2.0  mm
+    Length          128.8  cm
+    Thickness       608.0  um
+    Material        silicon
+    //XOX0            0.0065
+    IsSensitive     true
+    Resolution       7.0 um
+    ROtime           1.0 us
+    Efficiency       0.99
+    BkgRate         10.0  kHz/cm2
+    LayerName        SIT-layer-4
+  EndCylinder
+  
+EndLadderCylinder
+
+
+
+
+
+
