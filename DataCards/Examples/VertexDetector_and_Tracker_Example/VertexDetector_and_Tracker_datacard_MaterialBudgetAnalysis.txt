@@ -1,0 +1,51 @@
+////////////////////////////////////////////////////
+// Description: Vertex detector & tracker example //
+//   - Material budget analysis                   //
+////////////////////////////////////////////////////
+
+//Particle parameters
+ParticleType:   mu+                 //Type
+ParticleOrigin: 0.0  0.0  0.0  cm   //Origin
+
+//Pivot point for tracking
+ReferencePoint: 0.0  0.0  0.0  cm
+
+BeginCosThetaScan
+  Nbins          300
+  costhetaMin   -1.0
+  costhetaMax   +1.0
+EndCosThetaScan
+
+//Parameters for material budget analysis
+BeginMatBudgetAnalysisParams
+  mom_min    1.0  GeV/c
+  mom_max   10.0  GeV/c
+EndMatBudgetAnalysisParams
+
+//Geometry lists
+BeginGeometries
+  DataCards/Examples/VertexDetector_and_Tracker_Example/GeometryCards/Si_Tracker_Geometry_v1.txt
+  DataCards/Examples/VertexDetector_and_Tracker_Example/GeometryCards/Si_Tracker_Geometry_v2.txt
+EndGeometries
+
+OutputFile:  Plots/Examples/VertexDetector_and_Tracker_Example/Vertex_and_Tracker_Example_MaterialBudgetAnalysis_plots
+
+//List of analysis flags
+//PrintGeometry:             true
+//PrintGeometryWeight:       true
+//PlotGeometry:              true
+//PlotWorldVolume:           true
+//DoRZGeoRepresentation:     true
+//PlotSomeTracks:            true
+//UseAllMomVals:             true
+//DoTrkResolAnalysis:        true
+//DoTelescopeAnalysis:       true
+DoMaterialBugdetAnalysis:  true
+SavePlots:                 true
+
+
+
+
+
+
+

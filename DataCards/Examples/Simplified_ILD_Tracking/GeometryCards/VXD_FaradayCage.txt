@@ -1,0 +1,130 @@
+//////////////////////////////////////////
+//////// VXD Faraday Cage Geometry ///////
+//////////////////////////////////////////
+
+//Lower FWD disk
+BeginGeoDisk
+  Name          VXD Faraday Cage: Lower Fwd Disk (Styropor)
+  Position      0.0   0.0  17.0  cm
+  RotAngles     0.0   0.0   0.0  deg
+  Rin           2.5  cm
+  Rout          2.9  cm
+  Thickness     1.0  cm
+  Material      styropor
+  IsSensitive   false
+  LayerName     VXD-Faraday-Cage
+EndGeoDisk
+
+BeginGeoDisk
+  Name          VXD Faraday Cage: Lower Fwd Disk (Al)
+  Position      0.0   0.0  17.525  cm
+  RotAngles     0.0   0.0   0.0    deg
+  Rin           2.5  cm
+  Rout          2.9  cm
+  Thickness     500  um
+  Material      aluminum
+  IsSensitive   false
+  LayerName     VXD-Faraday-Cage
+EndGeoDisk
+
+//Upper FWD disk
+BeginGeoDisk
+  Name          VXD Faraday Cage: Upper Fwd Disk (Styropor)
+  Position      0.0   0.0  17.0  cm
+  RotAngles     0.0   0.0   0.0  deg
+  Rin           3.3  cm
+  Rout         10.1  cm
+  Thickness     1.0  cm
+  Material      styropor
+  IsSensitive   false
+  LayerName     VXD-Faraday-Cage
+EndGeoDisk
+
+BeginGeoDisk
+  Name          VXD Faraday Cage: Upper Fwd Disk (Al)
+  Position      0.0   0.0  17.525  cm
+  RotAngles     0.0   0.0   0.0    deg
+  Rin           3.3  cm
+  Rout         10.1  cm
+  Thickness     500  um
+  Material      aluminum
+  IsSensitive   false
+  LayerName     VXD-Faraday-Cage
+EndGeoDisk
+
+//Lower BWD disk
+BeginGeoDisk
+  Name          VXD Faraday Cage: Lower Bwd Disk (Styropor)
+  Position      0.0   0.0 -17.0  cm
+  RotAngles     0.0   0.0   0.0  deg
+  Rin           2.5  cm
+  Rout          2.9  cm
+  Thickness     1.0  cm
+  Material      styropor
+  IsSensitive   false
+  LayerName     VXD-Faraday-Cage
+EndGeoDisk
+
+BeginGeoDisk
+  Name          VXD Faraday Cage: Lower Bwd Disk (Al)
+  Position      0.0   0.0 -17.525  cm
+  RotAngles     0.0   0.0   0.0    deg
+  Rin           2.5  cm
+  Rout          2.9  cm
+  Thickness     500  um
+  Material      aluminum
+  IsSensitive   false
+  LayerName     VXD-Faraday-Cage
+EndGeoDisk
+
+//Upper BWD disk
+BeginGeoDisk
+  Name          VXD Faraday Cage: Upper Bwd Disk (Styropor)
+  Position      0.0   0.0 -17.0  cm
+  RotAngles     0.0   0.0   0.0  deg
+  Rin           3.3  cm
+  Rout         10.1  cm
+  Thickness     1.0  cm
+  Material      styropor
+  IsSensitive   false
+  LayerName     VXD-Faraday-Cage
+EndGeoDisk
+
+BeginGeoDisk
+  Name          VXD Faraday Cage: Upper Bwd Disk (Al)
+  Position      0.0   0.0 -17.525  cm
+  RotAngles     0.0   0.0   0.0    deg
+  Rin           3.3  cm
+  Rout         10.1  cm
+  Thickness     500  um
+  Material      aluminum
+  IsSensitive   false
+  LayerName     VXD-Faraday-Cage
+EndGeoDisk
+
+//Upper Cylinder
+BeginGeoCylinder
+  Name            VXD Faraday Cage: Upper Cylinder (Styropor)
+  Position        0.0  0.0  0.0  cm
+  RotAngles       0.0  0.0  0.0  deg 
+  Thickness       1.0  cm
+  Material        styropor
+  Length          32.99 cm
+  Radius          9.6   cm  
+  IsSensitive     false
+  LayerName       VXD-Faraday-Cage
+EndGeoCylinder
+
+BeginGeoCylinder
+  Name            VXD Faraday Cage: Upper Cylinder (Al)
+  Position        0.0  0.0  0.0  cm
+  RotAngles       0.0  0.0  0.0  deg 
+  Thickness       500  um
+  Material        aluminum
+  Length          35.1   cm
+  Radius          10.125 cm  
+  IsSensitive     false
+  LayerName       VXD-Faraday-Cage
+EndGeoCylinder
+
+

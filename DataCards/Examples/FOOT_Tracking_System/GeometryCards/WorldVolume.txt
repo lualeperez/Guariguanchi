@@ -1,0 +1,10 @@
+////////////////////////////////
+//////// World Volume //////////
+////////////////////////////////
+
+BeginBoxWorldVolume
+  Position     0.0  0.0  0.0  cm
+  widthX      10.0  cm
+  widthY      10.0  cm
+  widthZ      32.0  cm
+EndBoxWorldVolume

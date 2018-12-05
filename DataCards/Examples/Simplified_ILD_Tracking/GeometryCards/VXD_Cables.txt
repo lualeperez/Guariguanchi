@@ -1,0 +1,221 @@
+////////////////////////////////////
+//////// VXD Cables Geometry ///////
+////////////////////////////////////
+
+//Layer 1-2 cables FWD
+BeginGeoCone
+  Name              Layer 1-2 FWD cable (kapton)
+  Position          0.0    0.0   12.415  cm
+  RotAngles         0.0    0.0    0.0   deg 
+  Thickness1        45.7 um
+  Material          kapton
+  Length            8.17  cm
+  Radius1           1.7   cm
+  Radius2           3.0   cm
+  IsSensitive       false
+  LayerName         VXD-cables
+EndGeoCone
+
+BeginGeoCone
+  Name              Layer 1-2 FWD cable (copper)
+  Position          0.0    0.0   12.415  cm
+  RotAngles         0.0    0.0    0.0   deg 
+  Thickness1        8.1  um
+  Material          copper
+  Length            8.17    cm
+  Radius1           1.70274 cm
+  Radius2           3.00157 cm
+  IsSensitive       false
+  LayerName         VXD-cables
+EndGeoCone
+
+//Layer 1-2 cables BWD
+BeginGeoCone
+  Name              Layer 1-2 BWD cable (kapton)
+  Position          0.0    0.0  -12.415  cm
+  RotAngles         0.0  180.0    0.0   deg 
+  Thickness1        45.7 um
+  Material          kapton
+  Length            8.17  cm
+  Radius1           1.7   cm
+  Radius2           3.0   cm
+  IsSensitive       false
+  LayerName         VXD-cables
+EndGeoCone
+
+BeginGeoCone
+  Name              Layer 1-2 BWD cable (copper)
+  Position          0.0    0.0  -12.415  cm
+  RotAngles         0.0  180.0    0.0   deg 
+  Thickness1        8.1  um
+  Material          copper
+  Length            8.17    cm
+  Radius1           1.70274 cm
+  Radius2           3.00157 cm
+  IsSensitive       false
+  LayerName         VXD-cables
+EndGeoCone
+
+//Layer 3-4 cables FWD
+BeginGeoCone
+  Name              Layer 3-4 FWD cable (kapton)
+  Position          0.0    0.0   15.6005  cm
+  RotAngles         0.0    0.0    0.0   deg 
+  Thickness1        41.0 um
+  Material          kapton
+  Length            1.799    cm
+  Radius1           3.8      cm
+  Radius2           3.00462  cm
+  IsSensitive       false
+  LayerName         VXD-cables
+EndGeoCone
+
+BeginGeoCone
+  Name              Layer 3-4 FWD cable (copper)
+  Position          0.0    0.0   15.6005  cm
+  RotAngles         0.0    0.0    0.0   deg 
+  Thickness1        7.2 um
+  Material          copper
+  Length            1.799    cm
+  Radius1           3.80246  cm
+  Radius2           3.00772  cm
+  IsSensitive       false
+  LayerName         VXD-cables
+EndGeoCone
+
+//Layer 3-4 cables BWD
+BeginGeoCone
+  Name              Layer 3-4  BWD cable (kapton)
+  Position          0.0    0.0  -15.6005  cm
+  RotAngles         0.0  180.0    0.0   deg 
+  Thickness1        41.0 um
+  Material          kapton
+  Length            1.799    cm
+  Radius1           3.8      cm
+  Radius2           3.00462  cm
+  IsSensitive       false
+  LayerName         VXD-cables
+EndGeoCone
+
+BeginGeoCone
+  Name              Layer 3-4  BWD cable (copper)
+  Position          0.0    0.0  -15.6005  cm
+  RotAngles         0.0  180.0    0.0   deg 
+  Thickness1        7.2 um
+  Material          copper
+  Length            1.799    cm
+  Radius1           3.80246  cm
+  Radius2           3.00772  cm
+  IsSensitive       false
+  LayerName         VXD-cables
+EndGeoCone
+
+//Layer 5-6 cables FWD
+BeginGeoCone
+  Name              Layer 5-6  FWD cable (kapton)
+  Position          0.0    0.0   15.6005  cm
+  RotAngles         0.0    0.0    0.0   deg 
+  Thickness1        40.4 um
+  Material          kapton
+  Length            1.799    cm
+  Radius1           5.9      cm
+  Radius2           3.01209  cm
+  IsSensitive       false
+  LayerName         VXD-cables
+EndGeoCone
+
+BeginGeoCone
+  Name              Layer 5-6  FWD cable (copper)
+  Position          0.0    0.0   15.6005  cm
+  RotAngles         0.0    0.0    0.0   deg 
+  Thickness1        7.1 um
+  Material          copper
+  Length            1.799    cm
+  Radius1           5.90243  cm
+  Radius2           3.01679  cm
+  IsSensitive       false
+  LayerName         VXD-cables
+EndGeoCone
+
+//Layer 5-6 cables BWD
+BeginGeoCone
+  Name              Layer 5-6  BWD cable (kapton)
+  Position          0.0    0.0  -15.6005  cm
+  RotAngles         0.0  180.0    0.0   deg 
+  Thickness1        40.4 um
+  Material          kapton
+  Length            1.799    cm
+  Radius1           5.9      cm
+  Radius2           3.01209  cm
+  IsSensitive       false
+  LayerName         VXD-cables
+EndGeoCone
+
+BeginGeoCone
+  Name              Layer 5-6  BWD cable (copper)
+  Position          0.0    0.0  -15.6005  cm
+  RotAngles         0.0  180.0    0.0   deg 
+  Thickness1        7.1 um
+  Material          copper
+  Length            1.799    cm
+  Radius1           5.90243  cm
+  Radius2           3.01679  cm
+  IsSensitive       false
+  LayerName         VXD-cables
+EndGeoCone
+
+//Cable re-distribution FWD
+BeginGeoCylinder
+  Name            Cable re-distribution FWD (cylinder)
+  Position        0.0  0.0   17.025  cm
+  RotAngles       0.0  0.0    0.0    deg 
+  Thickness       26.5 um
+  Material        copper
+  Length          1.05  cm
+  Radius          3.0   cm  
+  IsSensitive     false
+  LayerName       VXD-cables
+EndGeoCylinder
+
+//Cable re-distribution BWD
+BeginGeoCylinder
+  Name            Cable re-distribution BWD (cylinder)
+  Position        0.0  0.0  -17.025  cm
+  RotAngles       0.0  0.0    0.0    deg 
+  Thickness       26.5 um
+  Material        copper
+  Length          1.05  cm
+  Radius          3.0   cm  
+  IsSensitive     false
+  LayerName       VXD-cables
+EndGeoCylinder
+
+//Cable re-distribution to beam-pipe FWD
+BeginGeoCone
+  Name              Cable re-distribution to beam-pipe FWD
+  Position          0.0    0.0   20.275  cm
+  RotAngles         0.0    0.0    0.0   deg 
+  Thickness1        26.5 um
+  Material          copper
+  Length            5.45   cm
+  Radius1           3.0    cm
+  Radius2           2.672  cm
+  IsSensitive       false
+  LayerName         VXD-cables
+EndGeoCone
+
+//Cable re-distribution to beam-pipe BWD
+BeginGeoCone
+  Name              Cable re-distribution to beam-pipe BWD
+  Position          0.0    0.0  -20.275  cm
+  RotAngles         0.0  180.0    0.0   deg 
+  Thickness1        26.5 um
+  Material          copper
+  Length            5.45  cm
+  Radius1           3.0    cm
+  Radius2           2.672  cm
+  IsSensitive       false
+  LayerName         VXD-cables
+EndGeoCone
+
+

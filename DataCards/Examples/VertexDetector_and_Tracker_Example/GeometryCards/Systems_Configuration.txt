@@ -1,0 +1,18 @@
+//Systems configuration
+
+BeginSystemsConfiguration
+  BeginSystem
+    Name        Beam-Pipe
+    LayersList  Beam-Pipe
+  EndSystem
+  
+  BeginSystem
+    Name        Tracker-Inner Barrel
+    LayersList  ITS-1  ITS-2  ITS-3
+  EndSystem
+  
+  BeginSystem
+    Name        Tracker-Outer Barrel
+    LayersList  ITS-4  ITS-5  ITS-6 ITS-7
+  EndSystem
+EndSystemsConfiguration

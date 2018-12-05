@@ -1,0 +1,13 @@
+//VELO system
+
+// Thickness 300 um times 2
+
+// inner diameter 16 mm
+// outer diameter 84 mm
+
+// Phi => U => ResolutionU = 14 um
+// R   => V => ResolutionV = 14 um
+
+// RF foil: 300 um thickness AlMg3 
+
+//

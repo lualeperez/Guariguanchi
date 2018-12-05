@@ -1,0 +1,40 @@
+///////////////////////////////
+/////// Geometry Bfield ///////
+///////////////////////////////
+
+BeginMultipleStepsBfield
+  BeginCylinderVolume
+    Position     0.0  0.0  -6.0  cm
+    RotAngles    0.0  0.0   0.0  deg
+    Radius       4.0 cm
+    Length       7.0 cm
+  EndCylinderVolume
+  BeginInsideBfield
+    Magnitude      0.8  T
+    Direction      1  0  0
+  EndInsideBfield
+  
+  BeginCylinderVolume
+    Position     0.0  0.0  0.0  cm
+    RotAngles    0.0  0.0  0.0  deg
+    Radius       4.0    cm
+    Length       4.9999 cm
+  EndCylinderVolume
+  BeginInsideBfield
+    Magnitude      0.55  T
+    Direction      1  0  0
+  EndInsideBfield
+  
+  BeginCylinderVolume
+    Position     0.0  0.0  +6.0  cm
+    RotAngles    0.0  0.0   0.0  deg
+    Radius       4.0 cm
+    Length       7.0 cm
+  EndCylinderVolume
+  BeginInsideBfield
+    Magnitude      0.8  T
+    Direction      1  0  0
+  EndInsideBfield  
+EndMultipleStepsBfield
+
+
